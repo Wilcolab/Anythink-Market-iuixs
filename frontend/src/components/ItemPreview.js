@@ -29,7 +29,7 @@ const ItemPreview = (props) => {
     }
   };
 
-  console.log('item', item);
+  console.log("item", item);
 
   return (
     <div
@@ -50,7 +50,7 @@ const ItemPreview = (props) => {
         <div className="d-flex flex-row align-items-center pt-2">
           <Link to={`/@${item.seller.username}`} className="flex-grow-1">
             <img
-              src={item.seller.image  || "/placeholder.png"}
+              src={item.seller.image || "/placeholder.png"}
               alt={item.seller.username}
               className="user-pic rounded-circle pr-1"
             />
